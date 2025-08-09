@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-09T15:13:59 IST" name="Suite" finished-at="2025-08-09T15:15:00 IST" duration-ms="61748">
+    <groups>
+    </groups>
+    <test started-at="2025-08-09T15:13:59 IST" name="Verify Product Test" finished-at="2025-08-09T15:14:25 IST" duration-ms="26541">
+      <class name="product.Verifyproduct">
+        <test-method is-config="true" signature="bm()[pri:0, instance:product.Verifyproduct@49438269]" started-at="2025-08-09T15:13:59 IST" name="bm" finished-at="2025-08-09T15:14:08 IST" duration-ms="9579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="verifyProduct()[pri:1, instance:product.Verifyproduct@49438269]" started-at="2025-08-09T15:14:08 IST" name="verifyProduct" description=" serach a product and verify same product " finished-at="2025-08-09T15:14:24 IST" duration-ms="16193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProduct -->
+        <test-method is-config="true" signature="am()[pri:0, instance:product.Verifyproduct@49438269]" started-at="2025-08-09T15:14:25 IST" name="am" finished-at="2025-08-09T15:14:25 IST" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+      </class> <!-- product.Verifyproduct -->
+    </test> <!-- Verify Product Test -->
+    <test started-at="2025-08-09T15:14:25 IST" name="Add Product Test" finished-at="2025-08-09T15:15:00 IST" duration-ms="35148">
+      <class name="product.AddProduct">
+        <test-method is-config="true" signature="setupExtent()[pri:0, instance:product.AddProduct@7530ad9c]" started-at="2025-08-09T15:13:58 IST" name="setupExtent" finished-at="2025-08-09T15:13:59 IST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtent -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:product.AddProduct@7530ad9c]" started-at="2025-08-09T15:14:25 IST" name="bm" finished-at="2025-08-09T15:14:34 IST" duration-ms="8788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="addProduct()[pri:2, instance:product.AddProduct@7530ad9c]" started-at="2025-08-09T15:14:34 IST" name="addProduct" description="Serch a product and add to cart and verify details" finished-at="2025-08-09T15:15:00 IST" duration-ms="25635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method is-config="true" signature="am()[pri:0, instance:product.AddProduct@7530ad9c]" started-at="2025-08-09T15:15:00 IST" name="am" finished-at="2025-08-09T15:15:00 IST" duration-ms="709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:product.AddProduct@7530ad9c]" started-at="2025-08-09T15:15:00 IST" name="flushReport" finished-at="2025-08-09T15:15:01 IST" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- product.AddProduct -->
+    </test> <!-- Add Product Test -->
+  </suite> <!-- Suite -->
+</testng-results>
